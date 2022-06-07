@@ -37,8 +37,8 @@ headers = {
 pixel_creation_endpoint = f"{graph_endpoint}/graph1"
 
 pixel_data = {
-    "date": "20200531",
-    "quantity": "300"
+    "date": "20220606",
+    "quantity": "90"
 }
 
 response = requests.post(url=pixel_creation_endpoint, json=pixel_data, headers=headers)
